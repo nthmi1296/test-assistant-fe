@@ -71,8 +71,8 @@ export default function ViewPage() {
 
                 // Set publish state
                 setPublished(viewData.published || false);
-                setPublishedAt(viewData.publishedAt || null);
-                setPublishedBy(viewData.publishedBy || null);
+                // setPublishedAt(viewData.publishedAt || null);
+                // setPublishedBy(viewData.publishedBy || null);
             } catch (err: any) {
                 console.error("Failed to load content:", err);
                 setError(
@@ -158,8 +158,8 @@ export default function ViewPage() {
 
             // Update publish state
             setPublished(res.data.data.published);
-            setPublishedAt(res.data.data.publishedAt);
-            setPublishedBy(res.data.data.publishedBy);
+            // setPublishedAt(res.data.data.publishedAt);
+            // setPublishedBy(res.data.data.publishedBy);
         } catch (err: any) {
             console.error("Failed to publish content:", err);
             setError(
