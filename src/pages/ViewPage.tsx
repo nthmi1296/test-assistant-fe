@@ -30,8 +30,8 @@ export default function ViewPage() {
 
     // Publish state
     const [published, setPublished] = useState<boolean>(false);
-    const [publishedAt, setPublishedAt] = useState<string | null>(null);
-    const [publishedBy, setPublishedBy] = useState<string | null>(null);
+    // const [publishedAt, setPublishedAt] = useState<string | null>(null);
+    // const [publishedBy, setPublishedBy] = useState<string | null>(null);
     const [publishing, setPublishing] = useState<boolean>(false);
 
     // Download state
