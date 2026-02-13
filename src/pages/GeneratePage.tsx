@@ -127,7 +127,7 @@ export default function GeneratePage() {
                                         UI Story:{" "}
                                     </span>
                                     <p className="text-lg font-semibold text-gray-900">
-                                        {prelight.uiStory ? "Yes" : "No"}
+                                        {prelight.isUiStory ? "Yes" : "No"}
                                     </p>
                                 </div>
                             </div>
